@@ -1,0 +1,271 @@
+﻿body {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 40px !important;
+    font-weight: 400 !important;
+    color: #5a5a5a;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navigation */
+#navigation {
+    position: sticky;
+    top: 0;
+    z-index: 9999999;
+}
+
+.navbar-nav li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* banner */
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+
+    .carousel-caption h5 {
+        font-size: 3em;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+/* aboutus */
+#aboutus {
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.04);
+    color: #848484;
+}
+
+.about-list {
+    width: 100%;
+    height: auto;
+    margin-left: -43px;
+}
+
+    .about-list li {
+        list-style: none;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 47px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+.aboutus {
+    width: 100%;
+    height: auto;
+    padding: 140px 0 140px 0;
+}
+
+    .aboutus h1 {
+        margin-bottom: 3em;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+    .aboutus p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 47px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .aboutus h1::after {
+        content: "";
+        background: #5a5a5a;
+        width: 322px;
+        height: 3px;
+        display: block;
+        margin: 80px auto 5px;
+    }
+
+/* hot-packages */
+#hot-tours {
+    width: 100%;
+    height: auto;
+}
+
+.hot-tours {
+    width: 100%;
+    height: auto;
+    padding: 140px 0 140px 0;
+}
+
+    .hot-tours h1::after {
+        content: "";
+        width: 322px;
+        height: 3px;
+        display: block;
+        background: #5a5a5a;
+        ;
+        margin: 80px auto 5px;
+    }
+
+    .hot-tours h1 {
+        margin-bottom: 3em;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+    .hot-tours button {
+        margin-top: 48px;
+    }
+
+.image-gallery {
+    width: 100%;
+    height: auto;
+    position: relative;
+    transition: ease-in-out 2s;
+}
+
+.gallery-text {
+    bottom: 0px;
+    padding: 20px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: auto;
+    display: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+    .gallery-text button {
+        margin-top: 0px;
+    }
+
+.image-gallery:hover .gallery-text {
+    display: block;
+}
+
+/* international-tours */
+#international-tours {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/banner3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+}
+
+.international-tours {
+    width: 100%;
+    height: auto;
+    padding: 140px 0 140px 0;
+}
+
+
+    .international-tours h1::after {
+        width: 170px;
+        height: 3px;
+        content: "";
+        display: block;
+        background: #ffffff;
+        margin: 80px auto 5px;
+    }
+
+
+    .international-tours h1 {
+        margin-bottom: 3em;
+        color: white;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+.international-button {
+    margin-top: 3em;
+}
+
+/* footer */
+#footer-section {
+    background-color: #393e46;
+    color: white;
+}
+
+.footer-section {
+    padding: 62px 0 87px 0;
+}
+
+    .footer-section p {
+        margin: 17px 0 0 0;
+    }
+
+.footer-orderlist {
+    width: 100%;
+    height: auto;
+    margin: 17px 0 0 0;
+}
+
+    .footer-orderlist li {
+        list-style: none;
+        line-height: 38px;
+        margin: 0 0 0 -38px;
+        color: #adaeaf;
+        transition: ease-in 0.2s;
+    }
+
+        .footer-orderlist li:hover {
+            list-style: none;
+            line-height: 38px;
+            margin: 0 0 0 -38px;
+            color: #ffffff;
+        }
+
+.social-icons {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 0 -38px;
+}
+
+    .social-icons a:hover {
+        color: #ffffff;
+    }
+
+
+
+    .social-icons li {
+        list-style: none;
+        display: inline-block;
+        font-size: 40px;
+        margin: 0 12px 0 0px;
+    }
+
+        .social-icons li a {
+            color: #adaeaf !important;
+            transition: ease-in 0.2s;
+        }
+
+            .social-icons li a:hover {
+                color: #ffffff !important;
+            }
+
+
+.get-in-touch {
+    margin-top: 20px;
+}
+
+.address {
+    line-height: 28px;
+    word-spacing: 1px;
+}
+
+.end-of-footer {
+    background-color: #393e46;
+}
+
+    .end-of-footer p {
+        color: #b9b6b6;
+        transition: ease-in 0.2s;
+    }
+
+        .end-of-footer p:hover {
+            color: #ffffff;
+        }
